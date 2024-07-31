@@ -1,12 +1,12 @@
 <?php
 #BOT CREADO POR  Andresitoww
-$botToken = '5359484704:AAH-jUHJcjoCp05qrV5RuwEL1Is35V3KU9g'; #AGREGAMOS EL TOKEN DEL BOT Aqui Ponemos El 
+$botToken = '7211870959:AAEIBPd-rD2UhWpxEHb30VW_r6felKFMoVY'; #AGREGAMOS EL TOKEN DEL BOT Aqui Ponemos El 
 $website  = "https://api.telegram.org/bot".$botToken;
 $update   = file_get_contents('php://input');
 $update   = json_decode($update, true);
 $e        = print_r($update); //
 #EMPIEZA LA CAPTURA DE VARIABLES ENVIADOS AL CHAT
-$My_ID           = "1887258668";
+$My_ID           = "2110320288";
 $chatname        = $update["message"]["chat"]["title"]; 
 $newusername     = $update["message"]["new_chat_member"]["username"];
 $newgId          = $update["message"]["new_chat_member"]["id"];
@@ -47,11 +47,11 @@ if($link === false){
 }
 
 //RANGOS DE OWNERS
-if ($chatId == $My_ID || $userId == $My_ID) { 
+if ($chatId == $2110320288 || $userId == $2110320288) { 
 $Rank = '[Owner]'; 
 $GLOBALS['Rank'] = $Rank;            
        }  
-if ($chatId == $cofuid || $userId == $cofuid) { 
+if ($chatId == $6339084464 || $userId == $6339084464) { 
 $Rank = '[CO-FU]'; 
 $GLOBALS['Rank'] = $Rank;            
        } 
